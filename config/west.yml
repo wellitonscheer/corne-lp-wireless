@@ -3,9 +3,9 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/wellitonscheer
   projects:
-    - name: corne-lp-wireless
+    - name: zmk
       remote: zmkfirmware
-      revision: master
+      revision: main
       import: app/west.yml
   self:
     path: config
