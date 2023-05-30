@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: corne-lp-wireless
       remote: zmkfirmware
-      revision: main
+      revision: master
       import: app/west.yml
   self:
     path: config
